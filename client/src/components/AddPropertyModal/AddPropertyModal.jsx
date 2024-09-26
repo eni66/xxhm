@@ -26,7 +26,7 @@ const AddPropertyModal = ({ opened, setOpened }) => {
     userEmail: user?.email,
   });
   console.log(user?.email);
-
+  console.log(propertyDetails);
   const nextStep = () => {
     setActive((current) => (current < 4 ? current + 1 : current));
   };
