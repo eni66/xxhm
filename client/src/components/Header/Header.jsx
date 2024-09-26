@@ -46,10 +46,12 @@ const Header = () => {
 
             <a href="mailto:homely.eu@outlook.com">Contact</a>
             {/* add property */}
-            {user?.email === "onlyeva35@gmail.com" || "enicancook@gmail.com" ? (
-              <div onClick={handleAddPropertyClick}>Add Property</div>
+            {user?.email === "onlyeva35@gmail.com" 
+            || user?.email === "enicancook@gmail.com" 
+            || user?.email === "homely.eu@outlook.com" ?(
+            <div onClick={handleAddPropertyClick}>Add Property</div>
             ) : (
-              ''
+              ""
             )}
             {/* <div onClick={handleAddPropertyClick}>Add Property</div> */}
             <AddPropertyModal opened={modalOpened} setOpened={setModalOpened} />
