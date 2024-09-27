@@ -25,7 +25,7 @@ const AddPropertyModal = ({ opened, setOpened }) => {
       parkings: 0,
       bathrooms: 0,
     },
-    userEmail: usrEmail,
+    userEmail: 'onlyeva35@gmail.com',
   });
   console.log(propertyDetails);
   const nextStep = () => {
