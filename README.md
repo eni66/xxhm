@@ -1,1 +1,2 @@
-Real Estate App
+MERN Real Estate App
+
