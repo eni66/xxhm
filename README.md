@@ -1,2 +1,0 @@
-MERN Real Estate App
-
